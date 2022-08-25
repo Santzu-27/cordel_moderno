@@ -16,36 +16,46 @@ header{
     color: white;
     background-color: black;
     text-align: center;
-    min-height: 200px;
 }
 
 
 h1{
     font-family: var(--tittleFont);
-    font-size: min(13vw, 4.8em);
+    font-size: min(14.6vw, 4.8em);
     padding: 15px 0 15px 0;
 }
 
 h2{
     font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: min(4vw, 1em);
     padding: 15px 0 15px 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline; 
 }
 
 main{
-    font: italic bold min(5vw,1.45em) cursive;
+    font: italic bold min(4.3vw,1.45em) cursive;
     font-style: italic;
     font-weight: bold;
-    margin: 60px auto;
-    line-height: 65px;
+    margin-top: 5px;
+    line-height: min(14vw, 65px);
 }
 .verse{
     margin-left:35px;
-    margin-bottom: 60px;
+    margin-bottom: min(6vw,50px);
     padding: 20px;
+    padding-bottom: 0;
 }
 #imagem{
-    margin-bottom: 60px;
+    margin-bottom: min(10vw,50px);
     background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg');
     background-size: cover;
     background-position: center center;
